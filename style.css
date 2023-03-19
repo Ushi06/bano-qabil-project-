@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 98vw;
+    height: 180vh;
+    background-image: url('./info.jpeg');
+    background-repeat: no-repeat;
+    background-size: 98vw 100vh;
+    background-attachment: fixed;
+}
+.section2{
+    width: 60vw;
+    height: 80vh;
+    margin-left: 180px;
+    margin-top: 45px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 20px 0px;
+}
+.section1 h1{
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 20px;
+}
+.section2 p{
+    text-align: center;
+    margin-top: 15px
+}
+.section1 h1 a{
+    text-decoration: none;
+    color: black;
+}
+.section1 h1 a:hover{
+    color: white;
+    text-shadow: 2px 2px grey;
+}
+.packages{
+    width: 60vw;
+    height: 80vh;
+    /* display: flex; */
+    margin-left: 180px;
+    margin-top: 45px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 20px 0px;
+}
+.packages h1{
+    width: 60vw;
+    height: 40px;
+    text-align: center;
+    margin-top: 40px;
+}
+.packages-pro1{
+    display: flex;
+}
+.packages1{
+    width: 20vw;
+    height: 30vh;
+    border-radius: 20px;
+    box-shadow: 5px 5px 20px 0px;
+    margin-left: 55px;
+    margin-top: 10px;
+    text-align: center;
+}
+.packages2{
+    width: 20vw;
+    height: 30vh;
+    border-radius: 20px;
+    box-shadow: 5px 5px 20px 0px;
+    margin-left: 55px;
+    margin-top: 10px;
+    text-align: center;
+}
+.packages-pro2{
+    display: flex;
+}
+.packages3{
+    width: 20vw;
+    height: 30vh;
+    border-radius: 20px;
+    box-shadow: 5px 5px 20px 0px;
+    margin-left: 55px;
+    margin-top: 10px;
+    text-align: center;
+}
+.packages4{
+    width: 20vw;
+    height: 30vh;
+    border-radius: 20px;
+    box-shadow: 5px 5px 20px 0px;
+    margin-left: 55px;
+    margin-top: 10px;
+    text-align: center;
+}
+.packages-pro1 .packages1 h3{
+    margin: 2px 4px;
+}
+.packages-pro1 .packages2 h3{
+    margin: 8px 8px 19px 4px;
+}
+.packages-pro2 .packages3 h3{
+    margin: 8px 8px 19px 4px;
+}
+.packages-pro2 .packages4 h3{
+    margin: 2px 4px;
+}
+.packages-pro1 .packages1 h3 a{
+    text-decoration: none;
+    color: black;
+}
+.packages-pro1 .packages2 h3 a{
+    text-decoration: none;
+    color: black;
+}
+.packages-pro2 .packages3 h3 a{
+    text-decoration: none;
+    color: black;
+}
+.packages-pro2 .packages4 h3 a{
+    text-decoration: none;
+    color: black;
+}
+.packages-pro1 .packages1 h3 a:hover{
+    color: white;
+    text-shadow: 2px 2px grey;
+}
+.packages-pro1 .packages2 h3 a:hover{
+    color: white;
+    text-shadow: 2px 2px grey;
+}
+.packages-pro2 .packages3 h3 a:hover{
+    color: white;
+    text-shadow: 2px 2px grey;
+}
+.packages-pro2 .packages4 h3 a:hover{
+    color: white;
+    text-shadow: 2px 2px grey;
+}
+.packages .services h1 a{
+    text-decoration: none;
+    color: black;
+}
+.packages .services h1 a:hover{
+    color: white;
+    text-shadow: 2px 2px grey;
+}
