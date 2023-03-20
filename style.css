@@ -357,6 +357,17 @@ footer {
     padding: 0;
     box-sizing: border-box
 }
+.section3 {
+    width: 90vw;
+    height: 65vh;
+    border-radius: 20px;
+    box-shadow: 5px 5px 20px 0px;
+}
+
+.section3 {
+    margin-left: 30px;
+    margin-top: 45px;
+}
 
 .body {
 
