@@ -1,0 +1,528 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 99vw;
+    height: 300vh;
+    background-image: url('./info.jpeg');
+    background-repeat: no-repeat;
+    background-size: 98vw 100vh;
+    background-attachment: fixed;
+}
+.banner{
+    width: 98vw;
+    height: 70vh;
+    background-image: url('https://www.tajtravel.com/content/images/themes/FamilyVacations.jpg');
+    background-size: 98vw 70vh;
+    background-attachment: fixed;
+}
+.header{
+    width: 90vw;
+    height: 45vh;
+    margin-left: 40px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 20px 0px;
+}
+.header h1{
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.header p{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+.whole-section{
+    width: 90vw;
+    height: 60vh;
+    display: flex;
+    margin-top: 20px;
+}
+.whole-section .sectionA{
+    width: 40vw;
+    height: 60vh;
+    margin-left: 50px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 20px 0px;
+}
+.whole-section .sectionA .naran{
+    width: 25vw;
+    height: 40vh;
+    border-radius: 20px 20px 0px 0px;
+    background-image: url('https://thesaraihotel.com/Content/Delvatore/images/Places/Places_F/Saif.jpg');
+    background-size: 25vw 40vh;
+}
+.whole-section .sectionA .naran-b{
+    text-align: center;
+    margin-top: 10px;
+    font-size: x-small;
+}
+.whole-section .sectionA .naran-b b{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.whole-section .sectionA .naran-b p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: medium;
+}
+.whole-section .sectionB{
+    width: 40vw;
+    height: 60vh;
+    margin-left: 50px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 20px 0px;
+}
+.whole-section .sectionB .hunza{
+    width: 25vw;
+    height: 40vh;
+    border-radius: 20px 20px 0px 0px;
+    background-image: url('https://dreamvistatours.com/wp-content/uploads/2021/04/HUNZA-BLOG-PIC-1-1024x768.jpg');
+    background-size: 25vw 40vh;
+}
+.whole-section .sectionB .hunza-b{
+    text-align: center;
+    margin-top: 10px;
+    font-size: x-small;
+}
+.whole-section .sectionB .hunza-b b{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.whole-section .sectionB .hunza-b p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: medium;
+}
+.whole-section .sectionC{
+    width: 40vw;
+    height: 60vh;
+    margin-left: 50px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 20px 0px;
+}
+.whole-section .sectionC .naltar{
+    width: 25vw;
+    height: 40vh;
+    border-radius: 20px 20px 0px 0px;
+    background-image: url('https://traveloguers.com/wp-content/uploads/2020/03/Blue-Lake.jpg');
+    background-size: 25vw 40vh;
+}
+.whole-section .sectionC .naltar-b{
+    text-align: center;
+    margin-top: 10px;
+    font-size: x-small;
+}
+.whole-section .sectionC .naltar-b b{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.whole-section .sectionC .naltar-b p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: medium;
+}
+.whole-section .sectionA .shogran{
+    width: 25vw;
+    height: 40vh;
+    border-radius: 20px 20px 0px 0px;
+    background-image: url('./shogran\ hotel.jpeg');
+    background-size: 25vw 40vh;
+}
+.whole-section .sectionA .shogran-b{
+    text-align: center;
+    margin-top: 10px;
+    font-size: x-small;
+}
+.whole-section .sectionA .shogran-b b{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.whole-section .sectionA .shogran-b p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: medium;
+}
+.whole-section .sectionB .neelum{
+    width: 25vw;
+    height: 40vh;
+    border-radius: 20px 20px 0px 0px;
+    background-image: url('https://www.pchotels.com/asset/images/pc-hotel-muzaffar.jpg');
+    background-size: 25vw 40vh;
+}
+.whole-section .sectionB .neelum-b{
+    text-align: center;
+    margin-top: 10px;
+    font-size: x-small;
+}
+.whole-section .sectionB .neelum-b b{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.whole-section .sectionB .neelum-b p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: medium;
+}
+.whole-section .sectionC .huunza{
+    width: 25vw;
+    height: 40vh;
+    border-radius: 20px 20px 0px 0px;
+    background-image: url('https://flypakistan.pk/hotels/imgs/Hunza/Luxus%20Hunza%20Attabad%20Lake%20Resort/luxus-hunza-attabad-lake-resort-img13-14.jpg');
+    background-size: 25vw 40vh;
+}
+.whole-section .sectionC .huunza-b{
+    text-align: center;
+    margin-top: 10px;
+    font-size: x-small;
+}
+.whole-section .sectionC .huunza-b b{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.whole-section .sectionC .huunza-b p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: medium;
+}
+.whole-section .sectionA .sawat{
+    width: 40vw;
+    height: 40vh;
+    border-radius: 20px 20px 0px 0px;
+    background-image: url('https://i.dawn.com/primary/2020/01/5e0c378a29909.jpg');
+    background-size: 40vw 45vh;
+}
+.whole-section .sectionA .sawat-b{
+    text-align: center;
+    margin-top: 10px;
+    font-size: xx-small;
+}
+.whole-section .sectionA .sawat-b b{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.whole-section .sectionA .sawat-b p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: medium;
+}
+.whole-section .sectionB .kashmir{
+    width: 40vw;
+    height: 40vh;
+    border-radius: 20px 20px 0px 0px;
+    background-image: url('https://www.sharpholidays.in/blog/wp-content/uploads/2021/01/Gulmarg.jpg');
+    background-size: 40vw 45vh;
+}
+.whole-section .sectionB .kashmir-b{
+    text-align: center;
+    margin-top: 10px;
+    font-size: x-small;
+}
+.whole-section .sectionB .kashmir-b b{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.whole-section .sectionB .kashmir-b p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: medium;
+}
+.whole-section .sectionA .spinkhor{
+    width: 25vw;
+    height: 40vh;
+    border-radius: 20px 20px 0px 0px;
+    background-image: url('./spinkhor.jpeg');
+    background-size: 25vw 40vh;
+}
+.whole-section .sectionA .spinkhor-b{
+    text-align: center;
+    margin-top: 10px;
+    font-size: x-small;
+}
+.whole-section .sectionA .spinkhor-b b{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.whole-section .sectionA .spinkhor-b p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: medium;
+}
+.whole-section .sectionB .katora{
+    width: 25vw;
+    height: 40vh;
+    border-radius: 20px 20px 0px 0px;
+    background-image: url('./katora.jpeg');
+    background-size: 25vw 45vh;
+}
+.whole-section .sectionB .katora-b{
+    text-align: center;
+    margin-top: 10px;
+    font-size: x-small;
+}
+.whole-section .sectionB .katora-b b{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.whole-section .sectionB .katora-b p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: medium;
+}
+.whole-section .sectionC .rakaposhi{
+    width: 25vw;
+    height: 40vh;
+    border-radius: 20px 20px 0px 0px;
+    background-image: url('./rakaposhi.jpeg');
+    background-size: 25vw 45vh;
+}
+.whole-section .sectionC .rakaposhi-b{
+    text-align: center;
+    margin-top: 10px;
+    font-size: x-small;
+}
+.whole-section .sectionC .rakaposhi-b b{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.whole-section .sectionC .rakaposhi-b p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: medium;
+}
+
+.section2{
+    width: 60vw;
+    height: 80vh;
+    margin-left: 180px;
+    margin-top: 45px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 20px 0px;
+}
+.section1 h1{
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 20px;
+}
+.section2 p{
+    text-align: center;
+    margin-top: 15px
+}
+.section1 h1 a{
+    text-decoration: none;
+    color: black;
+}
+.section1 h1 a:hover{
+    color: white;
+    text-shadow: 2px 2px grey;
+}
+.About{
+    width: 98vw;
+    height: 80vh;
+    margin-top: 45px;
+    display: flex;
+}
+.About1{
+    width: 30vw;
+    height: 60vh;
+    margin-left: 20px;
+    margin-top: 45px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 20px 0px;
+}
+.About2{
+    width: 30vw;
+    height: 60vh;
+    margin-left: 20px;
+    margin-top: 45px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 20px 0px;
+}
+.About3{
+    width: 30vw;
+    height: 60vh;
+    margin-left: 20px;
+    margin-top: 45px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 20px 0px;
+}
+.About .About1 h3{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.About .About2 h3{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.About .About3 h3{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+svg{
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 120px;
+}
+.About .About1 p{
+    text-align: center;
+}
+.About .About2 p{
+    text-align: center;
+}
+.About .About3 p{
+    text-align: center;
+}
+
+
+
+
+
+
+
+footer {
+    width: 95vw;
+    background: transparent;
+    color: black;
+    margin-left: 15px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 20px 0px;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    margin: 10px;
+    height: 15%;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 70px 18px;
+}
+
+
+
+
+
+
+.logo {
+    margin: 5px;
+    letter-spacing: 3px;
+    font-family: "potta one", cursive;
+    font: 25px;
+    text-shadow: 0 0 4px deepskyblue;
+    color: black;
+
+
+}
+
+
+
+.column h5 {
+    font-size: 18px;
+    letter-spacing: 2px;
+    position: relative;
+    padding-bottom: 8px;
+    font-family: "potta one", cursive;
+}
+
+.column h5::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 60%;
+    background-color: deepskyblue;
+    font-family: "potta one", cursive;
+}
+
+.footer-link li {
+    margin: 12px 0;
+    list-style: none;
+}
+
+.footer-link li a {
+    text-decoration: none;
+    color: black;
+    transition: 0.1s;
+}
+
+.footer-link li a:hover {
+    color: deepskyblue;
+    text-shadow: 0 0 12px;
+}
+
+.contact-details li {
+    list-style: none;
+    margin: 12px 0;
+    display: flex;
+    align-items: center;
+}
+
+.contact-details li i {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+    margin-right: 12px;
+}
+
+.fa-solid {
+    height: 35px;
+    width: 35px;
+    border: 2px solid deepskyblue;
+    color: black;
+}
+
+.fa-solid:hover {
+    color: whitesmoke;
+    background-color: deepskyblue;
+}
+
+.social-links {
+    display: flex;
+    list-style: none;
+
+}
+
+.fa-brands {
+    margin-right: 15px;
+}
+
+.fa-brands {
+    height: 35px;
+    width: 35px;
+    border: 2px solid transparent;
+    color: whitesmoke;
+    background-color: black;
+
+
+}
+
+.social-links li i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+.social-links li i:hover {
+    background: transparent;
+    color: deepskyblue;
+}
