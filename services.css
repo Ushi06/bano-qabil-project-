@@ -14,10 +14,13 @@ body{
 .banner{
     width: 98vw;
     height: 70vh;
-    background-image: url('https://www.tajtravel.com/content/images/themes/FamilyVacations.jpg');
+    background-image: url(./beauty\ of\ pakistan\ \(2\).jpg);
     background-size: 98vw 70vh;
     background-attachment: fixed;
+    justify-content: center;
+    
 }
+
 .header{
     width: 90vw;
     height: 45vh;
