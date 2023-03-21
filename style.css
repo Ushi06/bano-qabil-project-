@@ -1,9 +1,149 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
+
+.menu-bar {
+    /* text-shadow: 5px 0 0 rgb(224, 218, 218); */
+    color: #fff;
+    background-image: url(https://cdn.wallpapersafari.com/45/41/qIf3Lc.jpg);
+    height: 90px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5%;
+}
+
+.menu-bar h5 {
+    margin-left: -130px;
+}
+
+.menu-bar ul {
+    list-style: none;
+    display: flex;
+}
+
+.menu-bar ul li {
+    padding: 10px 30px;
+    position: relative;
+}
+
+.menu-bar ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    display: flex;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.menu-bar ul li a:hover {
+    color: white;
+    background-color: green;
+    border-radius: 10px;
+    transition: all 0.3s;
+    /* padding-inline: 10px; */
+    padding: 8px;
+}
+
+.dropdown-menu {
+    display: none;
+}
+
+.menu-bar ul li:hover .dropdown-menu {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background-color: transparent;
+}
+
+.dropdown-menu ul {
+    display: block;
+    margin: 10px;
+}
+
+.dropdown-menu ul li {
+    width: 150px;
+    padding: 10px;
+}
+
+.fas {
+    float: right;
+    margin-left: 10px;
+    padding-top: 3px;
+}
+
+.dropdown-menu-1 {
+    display: none;
+}
+
+.dropdown-menu ul li:hover .dropdown-menu-1 {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 150px;
+    transition: 0.3s;
+}
+
+.dropdown-menu-2 {
+    display: none;
+}
+
+.dropdown-menu ul li:hover .dropdown-menu-2 {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 150px;
+    transition: 0.3s;
+}
+
+img {
+    margin-top: -20px;
+    width: 100px;
+    /* margin-right: -405px;
+    margin-left: -30px;
+     */
+}
+
+.content {
+    text-align: center;
+}
+
+.content h1 {
+    font-size: 160px;
+    color: green;
+    border-radius: 50px;
+    font-weight: 600;
+    margin-top: 300px;
+}
+
+.content a {
+    text-decoration: none;
+    display: inline-block;
+    color: green;
+    font-size: 24px;
+    border: 2px solid #fff;
+    padding: 14px 70px;
+    border-radius: 50px;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.back-video {
+    position: absolute;
+    right: 0;
+    border-bottom: 0;
+    z-index: -1;
+}
+
+span {
+    color: green;
+}
+
+body {
     width: 99vw;
     height: 300vh;
     background-image: url('./info.jpeg');
@@ -11,7 +151,8 @@ body{
     background-size: 98vw 100vh;
     background-attachment: fixed;
 }
-.section2{
+
+.section2 {
     width: 60vw;
     height: 80vh;
     margin-left: 180px;
@@ -19,24 +160,29 @@ body{
     border-radius: 20px;
     box-shadow: 5px 5px 20px 0px;
 }
-.section1 h1{
+
+.section1 h1 {
     text-align: center;
     margin-bottom: 0px;
     margin-top: 20px;
 }
-.section2 p{
+
+.section2 p {
     text-align: center;
     margin-top: 15px
 }
-.section1 h1 a{
+
+.section1 h1 a {
     text-decoration: none;
     color: black;
 }
-.section1 h1 a:hover{
+
+.section1 h1 a:hover {
     color: white;
     text-shadow: 2px 2px grey;
 }
-.packages{
+
+.packages {
     width: 60vw;
     height: 80vh;
     /* display: flex; */
@@ -45,16 +191,19 @@ body{
     border-radius: 20px;
     box-shadow: 5px 5px 20px 0px;
 }
-.packages h1{
+
+.packages h1 {
     width: 60vw;
     height: 40px;
     text-align: center;
     margin-top: 40px;
 }
-.packages-pro1{
+
+.packages-pro1 {
     display: flex;
 }
-.packages1{
+
+.packages1 {
     width: 20vw;
     height: 30vh;
     border-radius: 20px;
@@ -63,7 +212,8 @@ body{
     margin-top: 10px;
     text-align: center;
 }
-.packages2{
+
+.packages2 {
     width: 20vw;
     height: 30vh;
     border-radius: 20px;
@@ -72,10 +222,12 @@ body{
     margin-top: 10px;
     text-align: center;
 }
-.packages-pro2{
+
+.packages-pro2 {
     display: flex;
 }
-.packages3{
+
+.packages3 {
     width: 20vw;
     height: 30vh;
     border-radius: 20px;
@@ -84,7 +236,8 @@ body{
     margin-top: 10px;
     text-align: center;
 }
-.packages4{
+
+.packages4 {
     width: 20vw;
     height: 30vh;
     border-radius: 20px;
@@ -93,65 +246,81 @@ body{
     margin-top: 10px;
     text-align: center;
 }
-.packages-pro1 .packages1 h3{
+
+.packages-pro1 .packages1 h3 {
     margin: 2px 4px;
 }
-.packages-pro1 .packages2 h3{
+
+.packages-pro1 .packages2 h3 {
     margin: 8px 8px 19px 4px;
 }
-.packages-pro2 .packages3 h3{
+
+.packages-pro2 .packages3 h3 {
     margin: 8px 8px 19px 4px;
 }
-.packages-pro2 .packages4 h3{
+
+.packages-pro2 .packages4 h3 {
     margin: 2px 4px;
 }
-.packages-pro1 .packages1 h3 a{
+
+.packages-pro1 .packages1 h3 a {
     text-decoration: none;
     color: black;
 }
-.packages-pro1 .packages2 h3 a{
+
+.packages-pro1 .packages2 h3 a {
     text-decoration: none;
     color: black;
 }
-.packages-pro2 .packages3 h3 a{
+
+.packages-pro2 .packages3 h3 a {
     text-decoration: none;
     color: black;
 }
-.packages-pro2 .packages4 h3 a{
+
+.packages-pro2 .packages4 h3 a {
     text-decoration: none;
     color: black;
 }
-.packages-pro1 .packages1 h3 a:hover{
+
+.packages-pro1 .packages1 h3 a:hover {
     color: white;
     text-shadow: 2px 2px grey;
 }
-.packages-pro1 .packages2 h3 a:hover{
+
+.packages-pro1 .packages2 h3 a:hover {
     color: white;
     text-shadow: 2px 2px grey;
 }
-.packages-pro2 .packages3 h3 a:hover{
+
+.packages-pro2 .packages3 h3 a:hover {
     color: white;
     text-shadow: 2px 2px grey;
 }
-.packages-pro2 .packages4 h3 a:hover{
+
+.packages-pro2 .packages4 h3 a:hover {
     color: white;
     text-shadow: 2px 2px grey;
 }
-.packages .services h1 a{
+
+.packages .services h1 a {
     text-decoration: none;
     color: black;
 }
-.packages .services h1 a:hover{
+
+.packages .services h1 a:hover {
     color: white;
     text-shadow: 2px 2px grey;
 }
-.About{
+
+.About {
     width: 98vw;
     height: 80vh;
     margin-top: 45px;
     display: flex;
 }
-.About1{
+
+.About1 {
     width: 30vw;
     height: 60vh;
     margin-left: 20px;
@@ -159,7 +328,8 @@ body{
     border-radius: 20px;
     box-shadow: 5px 5px 20px 0px;
 }
-.About2{
+
+.About2 {
     width: 30vw;
     height: 60vh;
     margin-left: 20px;
@@ -167,7 +337,8 @@ body{
     border-radius: 20px;
     box-shadow: 5px 5px 20px 0px;
 }
-.About3{
+
+.About3 {
     width: 30vw;
     height: 60vh;
     margin-left: 20px;
@@ -175,41 +346,43 @@ body{
     border-radius: 20px;
     box-shadow: 5px 5px 20px 0px;
 }
-.About .About1 h3{
+
+.About .About1 h3 {
     text-align: center;
     margin-top: 10px;
     margin-bottom: 20px;
 }
-.About .About2 h3{
+
+.About .About2 h3 {
     text-align: center;
     margin-top: 10px;
     margin-bottom: 20px;
 }
-.About .About3 h3{
+
+.About .About3 h3 {
     text-align: center;
     margin-top: 10px;
     margin-bottom: 20px;
 }
-svg{
+
+svg {
     width: 40px;
     height: 40px;
     margin-top: 10px;
     margin-left: 120px;
 }
-.About .About1 p{
-    text-align: center;
-}
-.About .About2 p{
-    text-align: center;
-}
-.About .About3 p{
+
+.About .About1 p {
     text-align: center;
 }
 
+.About .About2 p {
+    text-align: center;
+}
 
-
-
-
+.About .About3 p {
+    text-align: center;
+}
 
 
 footer {
@@ -352,11 +525,13 @@ footer {
     background: transparent;
     color: deepskyblue;
 }
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box
 }
+
 .section3 {
     width: 90vw;
     height: 65vh;
@@ -368,148 +543,3 @@ footer {
     margin-left: 30px;
     margin-top: 45px;
 }
-
-.body {
-
-}
-
-.menu-bar {
-    /* text-shadow: 5px 0 0 rgb(224, 218, 218); */
-    color: #fff;
-    background-image: url(https://cdn.wallpapersafari.com/45/41/qIf3Lc.jpg);
-    height: 90px;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 5%;
-}
-
-.menu-bar h5 {
-    margin-left: -130px;
-}
-
-.menu-bar ul {
-    list-style: none;
-    display: flex;
-}
-
-.menu-bar ul li {
-    padding: 10px 30px;
-    position: relative;
-}
-
-.menu-bar ul li a {
-    color: #fff;
-    text-decoration: none;
-    font-size: 20px;
-    display: flex;
-    transition: all 0.3s;
-    cursor: pointer;
-}
-
-.menu-bar ul li a:hover {
-    color: white;
-    background-color: green;
-    border-radius: 10px;
-    transition: all 0.3s;
-    /* padding-inline: 10px; */
-    padding: 8px;
-}
-
-.dropdown-menu {
-    display: none;
-}
-
-.menu-bar ul li:hover .dropdown-menu {
-    display: block;
-    position: absolute;
-    left: 0;
-    top: 100%;
-    background-color: transparent;
-}
-
-.dropdown-menu ul {
-    display: block;
-    margin: 10px;
-}
-
-.dropdown-menu ul li {
-    width: 150px;
-    padding: 10px;
-}
-
-.fas {
-    float: right;
-    margin-left: 10px;
-    padding-top: 3px;
-}
-
-.dropdown-menu-1 {
-    display: none;
-}
-
-.dropdown-menu ul li:hover .dropdown-menu-1 {
-    display: block;
-    position: absolute;
-    top: 0;
-    left: 150px;
-    transition: 0.3s;
-}
-
-.dropdown-menu-2 {
-    display: none;
-}
-
-.dropdown-menu ul li:hover .dropdown-menu-2 {
-    display: block;
-    position: absolute;
-    top: 0;
-    right: 150px;
-    transition: 0.3s;
-}
-
-img {
-    margin-top: -20px;
-    width: 100px;
-    /* margin-right: -405px;
-    margin-left: -30px;
-     */
-}
-
-.content {
-    text-align: center;
-}
-
-.content h1 {
-    font-size: 160px;
-    color: green;
-    border-radius: 50px;
-    font-weight: 600;
-    margin-top: 300px;
-}
-
-.content a {
-    text-decoration: none;
-    display: inline-block;
-    color: green;
-    font-size: 24px;
-    border: 2px solid #fff;
-    padding: 14px 70px;
-    border-radius: 50px;
-    margin-top: 20px;
-    font-weight: 600;
-}
-
-.back-video {
-    position: absolute;
-    right: 0;
-    border-bottom: 0;
-    z-index: -1;
-}
-
-span {
-    color: green;
-}
-
-.logo {}
