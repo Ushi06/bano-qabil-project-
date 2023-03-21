@@ -312,6 +312,67 @@ body {
     color: white;
     text-shadow: 2px 2px grey;
 }
+.About{
+    width: 98vw;
+    height: 80vh;
+    margin-top: 45px;
+    display: flex;
+}
+.About1{
+    width: 30vw;
+    height: 60vh;
+    margin-left: 20px;
+    margin-top: 45px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 20px 0px;
+}
+.About2{
+    width: 30vw;
+    height: 60vh;
+    margin-left: 20px;
+    margin-top: 45px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 20px 0px;
+}
+.About3{
+    width: 30vw;
+    height: 60vh;
+    margin-left: 20px;
+    margin-top: 45px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 20px 0px;
+}
+.About .About1 h3{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.About .About2 h3{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.About .About3 h3{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+svg{
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 120px;
+}
+.About .About1 p{
+    text-align: center;
+}
+.About .About2 p{
+    text-align: center;
+}
+.About .About3 p{
+    text-align: center;
+}
+
 
 
 
